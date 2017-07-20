@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>AlumniServlet</servlet-name>
+    <servlet-class>team.aab.servlet.AlumniServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TouristServlet</servlet-name>
+    <servlet-class>team.aab.servlet.TouristServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>team.aab.servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>AlumniServlet</servlet-name>
+    <url-pattern>/AlumniServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TouristServlet</servlet-name>
+    <url-pattern>/TouristServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="alumniadressbook:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/alumniadressbook_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="alumniadressbook" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.42-bin" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="commons-collections-3.2.2" />
+          <element id="library" level="project" name="commons-beanutils-1.9.3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="alumniadressbook/web/Web" />
+    </root>
+  </artifact>
+</component>
